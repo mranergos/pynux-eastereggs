@@ -8,7 +8,7 @@ pySystem.Clear()
 pySystem.Title("Fsociety - So real")
 colorama.init(autoreset=True)
 
-banner = (colorama.Fore.Green + """
+banner = (colorama.Fore.GREEN + """
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XX                                                                          XX
@@ -91,3 +91,4 @@ def main():
         exit()
     else:
         print("Unknown command. Type 'fsociety-skid' to run the skid script or 'exit' to quit.")
+
